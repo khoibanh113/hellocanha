@@ -85,5 +85,10 @@ namespace DesktopApp1
             Form3 f3 = new Form3();
             f3.ShowDialog();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world");
+        }
     }
 }
